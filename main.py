@@ -11,18 +11,21 @@ def func2(data):
     print('Here is the data:')
     print(data)
 
-    choice = ''
+    Selection = ''
     while True:
-        choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
-        if choice == '1':
-            print('The sum is',sum(data))
-        elif choice == '2':
-            print('Not supported yet')
-        elif choice == '3':
-            print('Not supported yet')
-        elif choice == '4':
-            print('Goodbye')
-            return
+        Selection = input('Select an option. 1-sum  2-min  3-max  4-quit')
+        menu(data, Selection)
+
+def menu(data, Selection):
+    if Selection == '1':
+        print('The sum is',sum(data))
+    elif Selection == '2':
+        print('Not supported yet')
+    elif Selection == '3':
+        print('Not supported yet')
+    elif Selection == '4':
+        print('Goodbye')
+        return
 
 def main():
     print("Hello, World!")
