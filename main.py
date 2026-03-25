@@ -17,9 +17,9 @@ def func2(data):
         if choice == '1':
             print('The sum is',sum(data))
         elif choice == '2':
-            print('Not supported yet')
+            print('The min is ',min(data))
         elif choice == '3':
-            print('Not supported yet')
+            print('The max is ',max(data))
         elif choice == '4':
             print('Goodbye')
             return
