@@ -24,10 +24,11 @@ def func2(data):
             print('Goodbye')
             return
 def func3():
-    total = 0
-    for i in range(10):
-        total +=1
-    print(total)
+    print("I would like to make some merge conflicts")
+    print("I am not sure if this is going to conflict or not")
+    print("I would like to make some merge conflicts.")
+    print("yes, me too")
+    print("perhaps things have changed")
 
 def main():
     print("Hello, World!")
