@@ -24,7 +24,8 @@ def func2(data):
             print('Goodbye')
             return
 def func3():
-    print("I would like to make some merge conflicts")
+    print("I would like to make some merge conflicts.")
+    print("yes, me too")
 
 def main():
     print("Hello, World!")
