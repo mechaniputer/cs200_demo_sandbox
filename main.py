@@ -1,16 +1,16 @@
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
-    datain = int(input('num:'))
-    while datain != 0:
-        lst.append(datain)
-        datain = int(input('num:'))
+    inpnum = int(input('num:'))
+    while inpnum != 0:
+        lst.append(inpnum)
+        inpnum = int(input('num:'))
     return lst
 
 def func2(data):
     print('Here is the data:')
     print(data)
-
+    print("This is the right answer")
     choice = ''
     while True:
        
