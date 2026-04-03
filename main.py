@@ -8,6 +8,7 @@ def func1():
     print('You added', len(lst), 'numbers')
     return lst
 
+
 def func2(data):
     print('Here is the data:')
     print(data)
@@ -16,7 +17,7 @@ def func2(data):
     while True:
         selection = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if selection == '1':
-            print('The sum is',sum(data))
+            print('The sum is', sum(data))
         elif selection == '2':
             print('Not supported yet')
         elif selection == '3':
@@ -25,12 +26,14 @@ def func2(data):
             print('Goodbye')
             return
 
+
 def main():
     print("Hello, World!")
     data = func1()
     func2(data)
 
-#ADDING A COMMENT
+# ADDING A COMMENT
+
 
 if __name__ == "__main__":
     main()
