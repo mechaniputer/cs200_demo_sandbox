@@ -5,6 +5,9 @@ def func1():
     while x != 0:
         lst.append(x)
         x = int(input('num:'))
+    return new_func(lst)
+
+def new_func(lst):
     return lst
 
 def func2(data):
