@@ -1,6 +1,7 @@
 import main
 import pytest
 
+
 @pytest.mark.parametrize(
         ('input_x', 'input_y', 'expected'),
         (
